@@ -1,0 +1,21 @@
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.logo{
+    width: 400px;
+}
+.lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.lista li{
+    margin: 5px;
+}
+.lista li a{
+    text-decoration: none;
+    color: black;
+}

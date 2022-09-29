@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import {ComponenteFuncion} from "./components/componenteFuncion/componenteFuncion";
-import {NavScrollExample} from "./components/NavBar/NavBar"
+import {NavBar} from "./components/NavBar/NavBar"
+import {ItemListContainer} from "./components/ItemsListContainer/ItemListContainer"
 
 function App() {
   return (
     <div className="App">
-         <NavScrollExample/>
+         <NavBar/>
+         <ItemListContainer producto="Pizza"/>
     </div>
   );
 }
